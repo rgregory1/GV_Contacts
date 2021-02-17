@@ -44,8 +44,8 @@ def grab_file(file_name, current):
     print(f"Retrieved {file_name} from remote")
 
 
-# grab_file("GV_contacts_2.txt", current)
-# grab_file("GV_contacts_1.txt", current)
+grab_file("GV_contacts_2.txt", current)
+grab_file("GV_contacts_1.txt", current)
 
 
 produce_data("GV_contacts_1.txt", "GV_contacts_2.txt", current)
