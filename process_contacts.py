@@ -154,7 +154,7 @@ def produce_data(file_name_1, file_name_2, current):
     result.to_csv(
         current / "processed_files" / "std_contact.txt",
         index=False,
-        # header=False,
+        header=False,
         sep="\t",
         line_terminator="\n",
     )
