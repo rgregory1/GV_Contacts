@@ -88,7 +88,8 @@ def process_contacts(file_name, current):
 
     # insert more blank columns
     df.insert(24, "MAIL_POBOX", np.nan)
-    df.insert(28, "EDUCATIONAL_RIGHTS", np.nan)
+    # df.insert(28, "EDUCATIONAL_RIGHTS", np.nan)
+    df.insert(28, "EDUCATIONAL_RIGHTS", "Y")
     df.insert(30, "CONTACT_TYPE", np.nan)
 
     # drop unused student identifier columns
